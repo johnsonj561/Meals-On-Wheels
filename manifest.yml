@@ -1,0 +1,9 @@
+applications:
+- disk_quota: 1024M
+  buildpack: php_buildpack
+  host: meals-on-wheels-routing
+  name: meals on wheels routing
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 384M
